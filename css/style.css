@@ -8,7 +8,7 @@
 }
 
 html,body {
-  /*  overflow-x: hidden !important;*/
+    overflow-x: hidden !important;
 }
 
 /* Header */
@@ -18,6 +18,8 @@ header {
     height: 75px;
     background-color: #202020;
     display: flex;
+    position: fixed;
+    z-index: 10;
 }
 
 .logo {
@@ -115,37 +117,60 @@ main {
 
 footer {
     width: 100%;
-    height: 200px;
     background-color: #202020;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-top: 30px;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes_icones {
+    display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 180px;
 }
 
-footer .card {
-    height: 100%;
-    width: 18rem;
-    background-color: #222222;
-    color: #ffffff;
-    border: 0px;
+.icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-.redes_icones > img {
-    width: 40px;
+.icones > a {
+    color: white;
+    text-decoration: none;
 }
 
+.icones > img {
+    width: 50px;
+}
+
+.rodape {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
 
 footer img:hover {
     transform: rotate(360deg);
 }
+
 footer img {
     transition: transform .8s ease-in-out;
-}
-header {
-    position: fixed;
-    z-index: 10;
-}
-main {
-    padding-top: 70px;
 }
