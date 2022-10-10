@@ -94,10 +94,6 @@ hr {
     font-weight: 700;
 }
 
-.ficha_produtores {
-    border: 1px solid black;
-}
-
 .ficha_produtores > ul > li {
     color: white;
     border: 1px solid black;
@@ -133,6 +129,22 @@ hr {
     align-items: center;
     padding: 0px 20px;
     border-left: 1px solid black;
+}
+
+.ficha_trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ficha_trailer > h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.trailer_frame {
+    width: 80%;
 }
 
 /* Footer */
