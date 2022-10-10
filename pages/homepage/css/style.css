@@ -102,13 +102,10 @@ main {
 
 .anime-card {
     
-    width: 280px;
-    height: 250px;
+    width: 285px;
+    height: 230px;
     border-radius: 25px;
-    
-    cursor: pointer;
-
-
+    background-position: bottom;
     background-color: #222222;
     background-size: contain;
     background-repeat: no-repeat;
@@ -116,27 +113,35 @@ main {
 }
 
 .card01 {
-    background-image: url(../imgs/animes/bokunohero.png);
+    background-image: url(../img/brooklyn99.jpg);
 }
 
 .card02 {
-    background-image: url(../imgs/animes/naruto.png);
+    background-image: url(../img/got.jpg);
 }
 
 .card03 {
-    background-image: url(../imgs/animes/dragonball.png);
+    background-image: url(../img/lacasa.png);
 }
 
 .card04 {
-    background-image: url(../imgs/animes/demonslayer.png);
+    background-image: url(../img/strangerthings.jpg);
 }
 
 .card05 {
-    background-image: url(../imgs/animes/attackontitan.png);
+    background-image: url(../img/supernatural.jpg);
 }
 
 .card06 {
-    background-image: url(../imgs/animes/swordartonline.png);
+    background-image: url(../img/tbbt.jpeg);
+}
+
+.card07 {
+    background-image: url(../img/twd.png);
+}
+
+.card08 {
+    background-image: url(../img/umbrellacademy.jpg);
 }
 
 .anime-card:hover {
@@ -150,11 +155,15 @@ main {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    
 }
 
 .anime-text > a {
     font-size: 24px;
     text-decoration: none;
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 0px 5px;
     color: rgb(255, 70, 70);
 }
 
