@@ -209,3 +209,45 @@ footer img:hover {
 footer img {
     transition: transform .8s ease-in-out;
 }
+
+/************* MEDIA QUERIES **************/
+
+@media(max-width: 425px) {
+
+    .redes_icones {
+        gap: 120px;
+    }
+
+    .rodape > small {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .formulario_login {
+        width: 95%;
+    }
+
+}
+
+@media(max-width: 980px){
+
+
+    input[type="email"],
+    input[type="password"] {
+        width: 85%;
+    }
+
+    .formulario_login {
+        width: 80%;
+    }
+
+}
+
+@media(max-width: 620px){
+
+    .registre-se > span {
+        font-size: 12px;
+        text-align: center;
+    }
+
+}

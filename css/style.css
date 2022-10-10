@@ -174,3 +174,27 @@ footer img:hover {
 footer img {
     transition: transform .8s ease-in-out;
 }
+
+/************* MEDIA QUERIES **************/
+
+@media(max-width: 425px) {
+
+
+
+    .redes_icones {
+        gap: 120px;
+    }
+
+    .rodape > small {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .frase > h2 {
+        text-align: center;
+    }
+}

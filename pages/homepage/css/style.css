@@ -228,3 +228,50 @@ footer img:hover {
 footer img {
     transition: transform .8s ease-in-out;
 }
+
+/************* MEDIA QUERIES **************/
+
+@media(max-width: 425px) {
+
+    .redes_icones {
+        gap: 120px;
+    }
+
+    .rodape > small {
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media(max-width:1320px) {
+    .series {
+        width: 100%;
+    
+        display: grid;
+        grid-template-columns: 28.5% 28.5% 28.5% ;
+        grid-gap: 60px;
+    }
+}
+
+@media(max-width:985px) {
+    .series {
+        width: 100%;
+    
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 60px;
+    }
+}
+
+@media(max-width:635px) {
+    .series {
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
