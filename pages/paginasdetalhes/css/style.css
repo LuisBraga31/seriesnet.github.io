@@ -209,3 +209,46 @@ footer img:hover {
 footer img {
     transition: transform .8s ease-in-out;
 }
+
+/************* MEDIA QUERIES **************/
+
+@media(max-width: 425px) {
+    .redes_icones {
+        gap: 120px;
+    }
+
+    .rodape > small {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1205px) {
+
+    .infos_episodio > h4, h5 {
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width:995px) {
+    
+    .linha_episodio {
+        gap: 10px;
+    }
+
+    .linha_episodio > img {
+        width: 110px;
+        height: 60px;
+    }
+
+    .infos_episodio > h4 {
+        width: 45px;
+        padding: 0px 15px;
+    }
+
+    .infos_episodio > h5 {
+        font-size: 1rem;
+    }
+
+}
