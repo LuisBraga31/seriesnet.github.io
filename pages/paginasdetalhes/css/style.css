@@ -48,7 +48,7 @@ header {
 
 .navegacao-itens {
     display: flex;
-    gap: 30px;
+    gap: 60px;
 }
 
 .navegacao-itens > a {
@@ -251,4 +251,46 @@ footer img {
         font-size: 1rem;
     }
 
+}
+
+@media(max-width: 768px) {
+
+    header {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+    
+    .logo > span {
+        margin-left: 0px;
+    }
+
+    .navegacao {
+
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    main {
+        margin-top: 75px;
+    }
+
+}
+
+@media(max-width:420px){
+
+    .navegacao-itens {
+        gap: 40px;
+    }
+
+    .navegacao-itens > a {
+        font-size: 14px;
+    }
 }
